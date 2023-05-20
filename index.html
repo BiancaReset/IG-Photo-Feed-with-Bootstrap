@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/55a2edbfc9.js" crossorigin="anonymous"></script>
+  <title>IG Photo Feed with Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="Assets/Instagram.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Instagram
+      </a>
+      <!-- Button trigger modal -->
+
+      <button type="button" class="btn btn-success ms-auto mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Create a new post
+      </button>
+
+      <!-- Modal -->
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-gear" style="color: #f4f5f5;"></i></button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Accesibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+          <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+        </ul>
+      </div>
+  </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-inline-block w-100 text-center">
+          <a href="#" class="link-light"><i class="fa-sharp fa-solid fa-square" style="color: #948f8f;;"></i></a>
+          <a href="Photos.html" class="link-dark"><i class="fa-solid fa-table-cells" style="color: #626364;"></i></a>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Amazing Patagonia 19/05</h4>
+          <img src="Assets/portada.jpeg" class="img-fluid" alt="Responsive image">
+          <h6>204 Likes</h6>
+          <p>Unforgettable horseback riding trip in the Chilean Patagonia</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Our climbing rock star 17/05</h4>
+          <img src="Assets/img3.webp" class="img-fluid" alt="Responsive image">
+          <h6>26598 Likes</h6>
+          <p>Our tour guide Josefina Grau climbing the steep rocks of the Torres del Paine National Park</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Breathtaking landscapes 14/05</h4>
+          <img src="Assets/img4.jpeg" class="img-fluid" alt="Responsive image">
+          <h6>10976 Likes</h6>
+          <p>A world of wonder in the end of the world</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Kayaking paradise 10/05</h4>
+          <img src="Assets/img5.png" class="img-fluid" alt="Responsive image">
+          <h6>26985 Likes</h6>
+          <p>Rivers and lakes are a kayaking wonderland</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Rafting adventure 7/05</h4>
+          <img src="Assets/img6.webp" class="img-fluid" alt="Responsive image">
+          <h6>5870 Likes</h6>
+          <p>Experienced rafting instructors will guide your adventure</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Glaciers! 5/05</h4>
+          <img src="Assets/img7.webp" class="img-fluid" alt="Responsive image">
+          <h6>8970 Likes</h6>
+          <p>Have you ever been that close to a glacier?</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Experience greatness 30/04</h4>
+          <img src="Assets/img8.jpeg" class="img-fluid" alt="Responsive image">
+          <h6>23098 Likes</h6>
+          <p>Summer riding tour in Torres del Paine</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Trekking 27/04</h4>
+          <img src="Assets/img9.jpeg" class="img-fluid" alt="Responsive image">
+          <h6>6578 Likes</h6>
+          <p>Choose from thousands of trails or go off the beaten track</p>
+        </div>
+        <div class="mx-auto post my-3 border-1 shadow">
+          <h4>Cycling 24/04</h4>
+          <img src="Assets/img10.jpeg" class="img-fluid" alt="Responsive image">
+          <h6>59807 Likes</h6>
+          <p>Choose from one of our 8 different cycling tours in the area</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Add the caption of your post here
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

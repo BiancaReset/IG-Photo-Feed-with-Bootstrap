@@ -1,0 +1,13 @@
+.col-4 img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+.post{
+    width:500px;
+}
+.post img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+}
