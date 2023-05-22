@@ -32,7 +32,7 @@
           <li><a class="dropdown-item" href="#">Profile</a></li>
           <li><a class="dropdown-item" href="#">Accesibility</a></li>
           <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-          <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+          <li><a class="dropdown-item text-danger border-top" href="#">Log Out</a></li>
         </ul>
       </div>
   </div>
@@ -45,55 +45,82 @@
           <a href="Photos.html" class="link-dark"><i class="fa-solid fa-table-cells" style="color: #626364;"></i></a>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Amazing Patagonia 19/05</h4>
+          <div class="d-flex justify-content-between">
+            <h4>Amazing Patagonia</h4>
+            <span>19/05</span>
+          </div>
           <img src="Assets/portada.jpeg" class="img-fluid" alt="Responsive image">
           <h6>204 Likes</h6>
           <p>Unforgettable horseback riding trip in the Chilean Patagonia</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Our climbing rock star 17/05</h4>
+          <div class="d-flex justify-content-between">
+          <h4>Our climbing rock star</h4>
+          <span>17/05</span>
+          </div>
           <img src="Assets/img3.webp" class="img-fluid" alt="Responsive image">
           <h6>26598 Likes</h6>
           <p>Our tour guide Josefina Grau climbing the steep rocks of the Torres del Paine National Park</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Breathtaking landscapes 14/05</h4>
+          <div class="d-flex justify-content-between">
+          <h4>Breathtaking landscapes</h4>
+          <span>14/05</span>
+        </div>
           <img src="Assets/img4.jpeg" class="img-fluid" alt="Responsive image">
           <h6>10976 Likes</h6>
           <p>A world of wonder in the end of the world</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Kayaking paradise 10/05</h4>
-          <img src="Assets/img5.png" class="img-fluid" alt="Responsive image">
+          <div class="d-flex justify-content-between">
+            <h4>Kayaking paradise</h4>
+            <span>10/05</span>
+          </div>
+         <img src="Assets/img5.png" class="img-fluid" alt="Responsive image">
           <h6>26985 Likes</h6>
           <p>Rivers and lakes are a kayaking wonderland</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Rafting adventure 7/05</h4>
+          <div class="d-flex justify-content-between">
+            <h4>Rafting adventure</h4>
+            <span>7/05</span>
+          </div> 
           <img src="Assets/img6.webp" class="img-fluid" alt="Responsive image">
           <h6>5870 Likes</h6>
           <p>Experienced rafting instructors will guide your adventure</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Glaciers! 5/05</h4>
-          <img src="Assets/img7.webp" class="img-fluid" alt="Responsive image">
+          <div class="d-flex justify-content-between">
+          <h4>Glaciers!</h4>
+          <span>5/05</span>
+        </div>
+      <img src="Assets/img7.webp" class="img-fluid" alt="Responsive image">
           <h6>8970 Likes</h6>
           <p>Have you ever been that close to a glacier?</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
+          <div class="d-flex justify-content-between">
           <h4>Experience greatness 30/04</h4>
+          <span>30/04</span>
+        </div>
           <img src="Assets/img8.jpeg" class="img-fluid" alt="Responsive image">
           <h6>23098 Likes</h6>
           <p>Summer riding tour in Torres del Paine</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
-          <h4>Trekking 27/04</h4>
+          <div class="d-flex justify-content-between">
+          <h4>Trekking</h4>
+          <span>27/04</span>
+        </div>
           <img src="Assets/img9.jpeg" class="img-fluid" alt="Responsive image">
           <h6>6578 Likes</h6>
           <p>Choose from thousands of trails or go off the beaten track</p>
         </div>
         <div class="mx-auto post my-3 border-1 shadow">
+          <div class="d-flex justify-content-between">
           <h4>Cycling 24/04</h4>
+          <span>24/04</span>
+        </div>
           <img src="Assets/img10.jpeg" class="img-fluid" alt="Responsive image">
           <h6>59807 Likes</h6>
           <p>Choose from one of our 8 different cycling tours in the area</p>
@@ -111,11 +138,17 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Add the caption of your post here
+          <div class="input-group">
+            <textarea class="form-control" aria-label="With textarea" placeholder="Create a new post"></textarea>
+          </div>
+          <row>
+            <i class="fa-solid fa-camera" style="color: #363535;"></i>
+            <i class="fa-solid fa-location-dot" style="color: #323334;"></i>
+          </row>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Publish</button>
+          <button type="button" class="btn btn-success">Publish</button>
         </div>
       </div>
     </div>
